@@ -7,11 +7,11 @@
             "command": "",
             "args": [
                 "python", "${relativeFile}",
-                    "<", "${workspaceFolder}/input.txt",
-                    ">", "${workspaceFolder}/output.txt"
+                "<", "${workspaceFolder}/input.txt",
+                ">", "${workspaceFolder}/output.txt"
             ],
             "presentation": {
-                "reveal": "silent"
+                "reveal": "never"
             },
             "group": {
                 "kind": "build",

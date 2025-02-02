@@ -1,0 +1,23 @@
+{
+	"terminal.integrated.defaultProfile.windows": "Command Prompt",
+	"editor.formatOnSave": true,
+	"editor.formatOnPaste": true,
+	"editor.formatOnSaveMode": "file",
+	"editor.insertSpaces": true,
+	"editor.wordWrapColumn": 79,
+	"[python]": {
+		"editor.defaultFormatter": "charliermarsh.ruff",
+		"editor.codeActionsOnSave": {
+			"source.fixAll.ruff": "always",
+			"source.organizeImports.ruff": "always"
+		},
+	},
+	"files.trimTrailingWhitespaceInRegexAndStrings": false,
+	"python.analysis.autoIndent": false,
+	"editor.detectIndentation": false,
+	"editor.fontSize": 15,
+	"editor.wordWrap": "on",
+	"python.analysis.autoImportCompletions": true,
+	"ruff.lineLength": 79,
+	"python.testing.pytestEnabled": false,
+}
